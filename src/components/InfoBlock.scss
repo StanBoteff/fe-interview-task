@@ -1,0 +1,18 @@
+.info-block {
+  &__wrapper {
+    flex-grow: 1;
+    background-color: #f6f9fb;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  &__header {
+    font-size: 12px;
+    color: #b2b7b9;
+  }
+
+  &__value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

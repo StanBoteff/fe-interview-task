@@ -1,0 +1,46 @@
+.details {
+  &__wrapper {
+    flex-grow: 1;
+  }
+
+  &__headers {
+    padding: 12px 20px;
+  }
+
+  &__header {
+    font-size: 18px;
+  }
+
+  &__subtle {
+    font-size: 12px;
+    color: #b2b7b9;
+  }
+
+  &__blocks {
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+  }
+
+  &__section {
+    padding: 20px;
+
+    &--headers,
+    &--row {
+      display: flex;
+      border-bottom: 1px solid #e1e4e5;
+
+      :first-child {
+        width: 33%;
+      }
+
+      :last-child {
+        width: 66%;
+      }
+    }
+
+    &--headers {
+      color: #b2b7b9;
+    }
+  }
+}
